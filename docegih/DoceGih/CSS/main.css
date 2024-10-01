@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+}
+
+
+
+#cabeçalho-top{
+    height: 50px;
+    width: auto;
+    background-color: pink;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#titulo-top{
+    color: white;
+    text-shadow: 1px 1px 6px palevioletred;
+    font-family: "Dancing Script", cursive;
+    padding-left: 80px;
+}
+
+#titulo-top:hover{
+    text-shadow: 1px 1px 6px pink;
+}
+
+nav.menu-lateral{
+    width: 50px;
+    height: 100%;
+    background-color: palevioletred;
+    padding: 20px 0px 40px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 3px 0px 0px rgb(180, 88, 119);
+    transition: .3s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(211, 158, 176);
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#container-main{
+    height: 500px;
+    width: auto;
+    background-color: #faeafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#container-dois{
+    height: 900px;
+    width: auto;
+    background-color: #faeafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bloco-main{
+    height: 300px;
+    width: 300px;
+    background-color: #faeafb;
+    display: flex;
+}
+
+.bloco-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#texto-img-main{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-size: 100%;
+    text-shadow: 2px 1px 1px black;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-img-main:hover{
+    opacity: 100%;
+    transition: .4s;
+}
+
+
+
+#rodape-footer{
+    height: 400px;
+    width: auto;
+    background-color: rgb(230, 165, 176);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+#texto-rodapé{
+    font-size: 15px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+}
