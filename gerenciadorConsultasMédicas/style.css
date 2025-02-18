@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+
+#header{
+    background-color: #9DB4C0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+#header-top{
+    font-family: Arial, Helvetica, serif;
+    text-shadow: 1px 1px 1px white;
+    color: #253237;
+    padding: 15px;
+}
+
+#logo-top{
+    height: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+}
+
+#menu-bar{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    text-shadow: 1px 1px 1px white;
+    color: #253237;
+}
+
+#main{
+    background-color: #c2dfe3d8;
+    height: 835px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#formulario-main{
+    background-color: #E0FBFC;
+    height: 600px;
+    width: 600px;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#lista-main {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-top: 50px;
+}
+
+#itens-formulario {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#name{
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+#date{
+    background-color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 200px;
+}
+
+#agendar{
+    background-color: darkcyan;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;  
+    color: white;
+}
+
+#titulo-form{
+    font-family: Arial, Helvetica, serif;
+    text-shadow: 1px 1px 1px white;
+    color: #253237;
+}
+
+#footer{
+    background-color: #9DB4C0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#text-footer{
+    color: #182225;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
