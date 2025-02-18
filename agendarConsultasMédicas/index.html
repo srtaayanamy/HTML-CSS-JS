@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Consultas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h1>Página do paciente</h1>
+        </div>
+    </header>
+    <section id="main">
+        <div id="container-main">
+            <h1>Classificação por idade:</h1>
+            <p>
+                <label for="datNasc">Data de nascimento:</label><br>
+                <input type="date" id="datNasc" name="datNasc">
+            </p>
+            <p>
+                <label for="sexo">Sexo:</label><br>
+                <input type="radio" id="mas" name="sexo" value="masculino">
+                <label for="mas">Masculino</label><br>
+                <input type="radio" id="fem" name="sexo" value="feminino">
+                <label for="fem">Feminino</label><br>
+            </p>
+            <p>Informe os dados para fins de cadastro.</p><br>
+            <img src="imagens/logo.jpg" alt="Logo médica genérica"><br>
+            <button onclick="mostrarDados()">Verificar</button>
+            <div id="res">
+                <p>O paciente é <span id="sexo"></span> e tem <span id="idade"></span> anos!</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
